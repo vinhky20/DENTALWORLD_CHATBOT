@@ -50,6 +50,8 @@ intents:
       use_entities: true
   - get_gender:
       use_entities: true
+  - get_service:
+      use_entities: true
 
 entities:
   - address
@@ -182,17 +184,21 @@ slots:
     type: text
     influence_conversation: false
     auto_fill: true
+  service_ask:
+    type: text
+    influence_conversation: false
+    auto_fill: true
 responses:
   utter_ask_service:
-  - text: "{gender} Vui lòng chọn dịch vụ muốn khám!"
+  - text: "{gender} vui lòng chọn dịch vụ muốn khám!"
   utter_ask_clinic:
-  - text: "{gender}Vui lòng cho chọn nha sĩ muốn khám"
+  - text: "{gender} vui lòng cho chọn nha sĩ muốn khám"
   utter_ask_customer:
   - text: Vui lòng cho em xin họ tên?
   utter_ask_phone:
   - text: "Số điện thoại của {gender} là?"
   utter_ask_email:
-  - text: Vui lòng nhập email
+  - text: Vui lòng nhập email giúp em nhé!
   utter_ask_date:
   - text: "Cho em hỏi {gender} muốn chọn ngày nào ạ?"
   utter_ask_note:

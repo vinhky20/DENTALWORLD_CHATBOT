@@ -219,6 +219,27 @@ nlu:
    - [bác](gender)
    - [ông nội](gender)
 
+- intent: get_service
+  examples: |
+   - [niềng răng, nhổ răng](service)
+   - [tẩy trắng răng](service)
+   - [nhổ răng, tẩy trắng răng](service)
+   - [chữa tuỷ răng](service)
+   - [lắp răng giả](service)
+   - [rạch dẫn lưu áp xe](service)
+   - [nhổ răng sữa](service)
+   - [cạo vôi răng](service)
+   - [trám răng, cạo vôi răng](service)
+   - [niềng răng](service)
+   - [tẩy trắng răng](service)
+   - [nhổ răng, tẩy trắng răng](service)
+   - [chữa tuỷ răng](service)
+   - [lắp răng giả](service)
+   - [rạch dẫn lưu áp xe](service)
+   - [nhổ răng sữa](service)
+   - [cạo vôi răng](service)
+   - [trám răng](service)
+
 - intent: book_intent
   examples: |
     - Đồng ý đặt lịch
@@ -388,42 +409,42 @@ nlu:
 
 - intent: ask_service
   examples: |
-    - cho tôi hỏi về dịch vụ [niềng răng](service)
-    - cho tôi hỏi về dịch vụ [tẩy trắng răng](service)
-    - cho tôi hỏi về dịch vụ [nhổ răng](service)
-    - cho tôi hỏi về dịch vụ [chữa tuỷ răng](service)
-    - cho tôi hỏi về dịch vụ [lắp răng giả](service)
-    - cho tôi hỏi về dịch vụ [rạch dẫn lưu áp xe](service)
-    - cho tôi hỏi về dịch vụ [nhổ răng sữa](service)
-    - cho tôi hỏi về dịch vụ [cạo vôi răng](service)
-    - cho tôi hỏi về dịch vụ [trám răng](service)
-    - [niềng răng](service) là như thế nào
-    - [tẩy trắng răng](service) là như thế nào
-    - [nhổ răng](service) là như thế nào
-    - [chữa tuỷ răng](service) là như thế nào
-    - [lắp răng giả](service) là như thế nào
-    - [rạch dẫn lưu áp xe](service) là như thế nào
-    - [nhổ răng sữa](service) là như thế nào
-    - [cạo vôi răng](service) là như thế nào
-    - [trám răng](service) là như thế nào
-    - [niềng răng](service) là chúng ta sẽ làm gì
-    - [tẩy trắng răng](service) là chúng ta sẽ làm gì
-    - [nhổ răng](service) là chúng ta sẽ làm gì
-    - [chữa tuỷ răng](service) là chúng ta sẽ làm gì
-    - [lắp răng giả](service) là chúng ta sẽ làm gì
-    - [rạch dẫn lưu áp xe](service) là chúng ta sẽ làm gì
-    - [nhổ răng sữa](service) là chúng ta sẽ làm gì
-    - [cạo vôi răng](service) là chúng ta sẽ làm gì
-    - [trám răng](service) là chúng ta sẽ làm gì
-    - [niềng răng](service) là làm gì?
-    - [tẩy trắng răng](service) là làm gì?
-    - [nhổ răng](service) là làm gì?
-    - [chữa tuỷ răng](service) là làm gì?
-    - [lắp răng giả](service) là làm gì?
-    - [rạch dẫn lưu áp xe](service) là làm gì?
-    - [nhổ răng sữa](service) là làm gì?
-    - [cạo vôi răng](service) là làm gì?
-    - [trám răng](service) là làm gì?
+    - cho tôi hỏi về dịch vụ [niềng răng](service_ask)
+    - cho tôi hỏi về dịch vụ [tẩy trắng răng](service_ask)
+    - cho tôi hỏi về dịch vụ [nhổ răng](service_ask)
+    - cho tôi hỏi về dịch vụ [chữa tuỷ răng](service_ask)
+    - cho tôi hỏi về dịch vụ [lắp răng giả](service_ask)
+    - cho tôi hỏi về dịch vụ [rạch dẫn lưu áp xe](service_ask)
+    - cho tôi hỏi về dịch vụ [nhổ răng sữa](service_ask)
+    - cho tôi hỏi về dịch vụ [cạo vôi răng](service_ask)
+    - cho tôi hỏi về dịch vụ [trám răng](service_ask)
+    - [niềng răng](service_ask) là như thế nào
+    - [tẩy trắng răng](service_ask) là như thế nào
+    - [nhổ răng](service_ask) là như thế nào
+    - [chữa tuỷ răng](service_ask) là như thế nào
+    - [lắp răng giả](service_ask) là như thế nào
+    - [rạch dẫn lưu áp xe](service_ask) là như thế nào
+    - [nhổ răng sữa](service_ask) là như thế nào
+    - [cạo vôi răng](service_ask) là như thế nào
+    - [trám răng](service_ask) là như thế nào
+    - [niềng răng](service_ask) là chúng ta sẽ làm gì
+    - [tẩy trắng răng](service_ask) là chúng ta sẽ làm gì
+    - [nhổ răng](service_ask) là chúng ta sẽ làm gì
+    - [chữa tuỷ răng](service_ask) là chúng ta sẽ làm gì
+    - [lắp răng giả](service_ask) là chúng ta sẽ làm gì
+    - [rạch dẫn lưu áp xe](service_ask) là chúng ta sẽ làm gì
+    - [nhổ răng sữa](service_ask) là chúng ta sẽ làm gì
+    - [cạo vôi răng](service_ask) là chúng ta sẽ làm gì
+    - [trám răng](service_ask) là chúng ta sẽ làm gì
+    - [niềng răng](service_ask) là làm gì?
+    - [tẩy trắng răng](service_ask) là làm gì?
+    - [nhổ răng](service_ask) là làm gì?
+    - [chữa tuỷ răng](service_ask) là làm gì?
+    - [lắp răng giả](service_ask) là làm gì?
+    - [rạch dẫn lưu áp xe](service_ask) là làm gì?
+    - [nhổ răng sữa](service_ask) là làm gì?
+    - [cạo vôi răng](service_ask) là làm gì?
+    - [trám răng](service_ask) là làm gì?
 
 - intent: ask_price
   examples: |

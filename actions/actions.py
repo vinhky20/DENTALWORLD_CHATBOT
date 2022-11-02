@@ -202,10 +202,13 @@ class AskSlotServiceAction(Action):
         gender = tracker.get_slot('gender')
         dispatcher.utter_message(
             gender + ' vui lòng cho chọn dịch vụ muốn khám')
+        dispatcher.utter_message(
+            "Hoặc nếu như " + gender + " muốn thực hiện nhiều dịch vụ thì vui lòng nhập vào bên dưới giúp em nhé!")
         for x in services:
             button.append(
                 {"title": x, "payload": '/give_service{\"service\": \"' + x + '\"}'})
         dispatcher.utter_button_message(" ", button)
+
         return []
 
 
@@ -424,11 +427,12 @@ class AskService(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         response = requests.get("http://localhost:5000/services")
         data = response.json()
-        service = tracker.get_slot("service")
+        service = tracker.get_slot("service_ask")
+        serviceChanged = service.lower()
         arr = {}
         for x in data:
             arr[x['SERVICE_NAME']] = x['SERVICE_DESCRIPTION']
-        dispatcher.utter_message(arr[service])
+        dispatcher.utter_message(arr[serviceChanged])
 
         return []
 
@@ -443,14 +447,14 @@ class AskPrice(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         response = requests.get("http://localhost:5000/services")
         data = response.json()
-        service = tracker.get_slot('price')
-        serviceChange = service.lower()
+        price = tracker.get_slot('price')
+        priceChanged = price.lower()
         arr = {}
         for x in data:
             arr[x['SERVICE_NAME']] = x['SERVICE_PRICE']
         # print(arr)
         # print(arr[tracker.get_slot('price')])
-        dispatcher.utter_message(arr[serviceChange])
+        dispatcher.utter_message(arr[priceChanged])
         return []
 
 
@@ -466,11 +470,11 @@ class AskTimeToDo(Action):
         response = requests.get("http://localhost:5000/services")
         data = response.json()
         timetodo = tracker.get_slot('timetodo')
-        timetodoChange = timetodo.lower()
+        timetodoChanged = timetodo.lower()
         arr = {}
         for x in data:
             arr[x['SERVICE_NAME']] = x['SERVICE_TIMETODO']
-        dispatcher.utter_message(arr[timetodoChange])
+        dispatcher.utter_message(arr[timetodoChanged])
 
         return []
 
@@ -487,11 +491,10 @@ class AskAddress(Action):
         response = requests.get("http://localhost:5000/clinics")
         data = response.json()
         address = tracker.get_slot('address')
-        addressChange = address.lower()
         arr = {}
         for x in data:
             arr[x['CLINIC_NAME']] = x['CLINIC_ADDRESS']
-        dispatcher.utter_message(arr[addressChange])
+        dispatcher.utter_message(arr[address])
 
         return []
 
