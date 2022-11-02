@@ -1,0 +1,109 @@
+version: "2.0"
+stories:
+  - story: "1"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask
+      - action: rep_ask
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_worktime
+      - action: utter_ask_worktime
+      - intent: ask_address
+      - action: rep_ask_address
+      - intent: ask_list_clinic
+      - action: rep_ask_list_clinic
+      - intent: goodbye
+      - action: rep_goodbye
+
+  - story: "2"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask
+      - action: rep_ask
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_address
+      - action: rep_ask_address
+      - intent: ask_worktime
+      - action: utter_ask_worktime
+      - intent: ask_list_clinic
+      - action: rep_ask_list_clinic
+      - intent: goodbye
+      - action: rep_goodbye
+
+  - story: "3"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask
+      - action: rep_ask
+      - intent: ask_list_clinic
+      - action: rep_ask_list_clinic
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_address
+      - action: rep_ask_address
+      - intent: ask_worktime
+      - action: utter_ask_worktime
+      - intent: goodbye
+      - action: rep_goodbye
+
+
+  - story: "4"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask
+      - action: rep_ask
+      - intent: ask_address
+      - action: rep_ask_address
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_worktime
+      - action: utter_ask_worktime
+      - intent: ask_list_clinic
+      - action: rep_ask_list_clinic
+      - intent: goodbye
+      - action: rep_goodbye
+
+
+  - story: "5"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask
+      - action: rep_ask
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_worktime
+      - action: utter_ask_worktime
+      - intent: ask_address
+      - action: rep_ask_address
+      - intent: ask_list_clinic
+      - action: rep_ask_list_clinic
+      - intent: goodbye
+      - action: rep_goodbye
+
