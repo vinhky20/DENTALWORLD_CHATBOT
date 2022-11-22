@@ -176,7 +176,8 @@ class insert_form_booking(Action):
             if (res['message'] == "Insert success!"):
                 response2 = requests.post(
                     "http://localhost:5000/bookings/sendMail", data=booking2)
-                dispatcher.utter_message("Đặt lịch thành công")
+                dispatcher.utter_message(
+                    "Đặt lịch thành công, quý khách có thể kiểm tra tin nhắn xác nhận đặt lịch trong email giúp em nhé!")
             else:
                 dispatcher.utter_message(
                     "Đặt lịch không thành công, vui lòng đặt lại !")
@@ -326,9 +327,10 @@ class AskSlotTimeAction(Action):
 
         if not availableTimeslots:
             dispatcher.utter_message('Ngày vừa chọn không có khung giờ trống')
-            dispatcher.utter_message('Vui lòng chọn ngày khác!')
+            dispatcher.utter_message('Xin vui lòng chọn ngày khác!')
         else:
-            dispatcher.utter_message('Hãy chọn thời gian đến khám bệnh:')
+            dispatcher.utter_message(
+                'Quý khách xin vui lòng chọn thời gian đến khám bệnh:')
         button = []
         for x in availableTimeslots:
             button.append(

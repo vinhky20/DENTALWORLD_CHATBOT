@@ -312,7 +312,7 @@ nlu:
 
 - intent: ask_address
   examples: |
-     - Phòng khám nha khoa[Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu vậy?
+     - Phòng khám nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu vậy?
      - Nha khoa nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu vậy?
      - Phòng khám nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu?
      - Nha khoa nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu?

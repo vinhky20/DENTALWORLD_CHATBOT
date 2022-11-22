@@ -1,0 +1,696 @@
+[
+  {
+    "text": "tôi muốn trồng răng sứ",
+    "entities": [
+      {
+        "start": 9,
+        "end": 22,
+        "value": "trồng răng sứ",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.6835104823112488,
+        "value": "trồng răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn nha sĩ Hoàng Nam",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "Hoàng Nam",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.4753475785255432,
+        "value": "Hoàng Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "123@zyx.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "123@zyx.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9516357183456421,
+        "value": "123@zyx.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "có thể tôi đến trễ xíu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "có thể tôi đến trễ xíu",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "em",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "em",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ông nội",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "ông nội",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thứ 7 chủ nhật có làm không",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "phone",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9864149689674377,
+        "value": "7",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tui đau răng quá bác sĩ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.8494102954864502,
+        "value": "bác sĩ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "có",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.846253514289856,
+        "value": "có",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ai cũng được",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "ai cũng được",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Lê Thị Vân Anh",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Lê Thị Vân Anh",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.816646933555603,
+        "value": "Lê Thị Vân Anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thế Phi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Thế Phi",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 4,
+        "end": 7,
+        "confidence_entity": 0.8201004266738892,
+        "value": "Phi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "gì cũng được",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "gì cũng được",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cô",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "cô",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chú",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "chú",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8864778876304626,
+        "value": "chú",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bai",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.6521621346473694,
+        "value": "bai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Giá tẩy răng bao nhiêu",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.9652650356292725,
+        "value": "tẩy răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Trồng răng có đau không",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9699497818946838,
+        "value": "Trồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chị muốn đặt lịch khám răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.7226983308792114,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoàng Nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Hoàng Nam",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6010078191757202,
+        "value": "Hoàng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "customer",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.7938765287399292,
+        "value": "Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thu Mai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Thu Mai",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "không có ghi chú",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "không có ghi chú",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.8143676519393921,
+        "value": "không có",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gender",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9678383469581604,
+        "value": "ghi chú",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bạn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "bạn",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bác",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "bác",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.6636852025985718,
+        "value": "bác",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "niềng răng có khó chịu không",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.5523282289505005,
+        "value": "niềng răng có",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "note",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.6142705082893372,
+        "value": "không",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "khám răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn đặt lịch niềng răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "niềng răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn nha sĩ Vĩnh Kỳ",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "Vĩnh Kỳ",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 21,
+        "end": 23,
+        "confidence_entity": 0.7539555430412292,
+        "value": "Kỳ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Khưu Nguyễn Hoàng Nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "Khưu Nguyễn Hoàng Nam",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "address",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.2821028232574463,
+        "value": "Khưu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "customer",
+        "start": 5,
+        "end": 21,
+        "confidence_entity": 0.6364925503730774,
+        "value": "Nguyễn Hoàng Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đoàn Huy",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Đoàn Huy",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5140495896339417,
+        "value": "Đoàn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dentist",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9396546483039856,
+        "value": "Huy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "anh",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "anh",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn đặt lịch khám răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.7464848160743713,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn đặt lịch nhổ răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.66,
+        "value": "nhổ răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chính xác",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.8898832201957703,
+        "value": "chính xác",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "khám răng",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "khám răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Lưu Tiến Đạo",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "Lưu Tiến Đạo",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hồng nhung",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Hồng nhung",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6138173341751099,
+        "value": "Hồng nhung",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Như Ý",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Như Ý",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "không có",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "không có",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6597543954849243,
+        "value": "không",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chị",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "chị",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.5431094765663147,
+        "value": "hi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

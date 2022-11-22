@@ -1,0 +1,196 @@
+{
+  "ask_list_clinic": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_timetodo": {
+    "precision": 0.9782608695652174,
+    "recall": 1.0,
+    "f1-score": 0.989010989010989,
+    "support": 45,
+    "confused_with": {}
+  },
+  "ask_price": {
+    "precision": 0.9183673469387755,
+    "recall": 1.0,
+    "f1-score": 0.9574468085106383,
+    "support": 45,
+    "confused_with": {}
+  },
+  "get_note": {
+    "precision": 0.3333333333333333,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.30769230769230765,
+    "support": 7,
+    "confused_with": {
+      "affirm": 2,
+      "ask": 1
+    }
+  },
+  "greet": {
+    "precision": 0.8461538461538461,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8799999999999999,
+    "support": 36,
+    "confused_with": {
+      "ask": 1,
+      "get_gender": 1
+    }
+  },
+  "get_service": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_worktime": {
+    "precision": 0.9230769230769231,
+    "recall": 0.8,
+    "f1-score": 0.8571428571428571,
+    "support": 15,
+    "confused_with": {
+      "ask_price": 1,
+      "ask_timetodo": 1
+    }
+  },
+  "ask_address": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_codauko": {
+    "precision": 0.9310344827586207,
+    "recall": 0.9642857142857143,
+    "f1-score": 0.9473684210526316,
+    "support": 28,
+    "confused_with": {
+      "get_note": 1
+    }
+  },
+  "inform": {
+    "precision": 0.6153846153846154,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.5161290322580646,
+    "support": 18,
+    "confused_with": {
+      "request_schedule": 4,
+      "ask": 2
+    }
+  },
+  "get_phone": {
+    "precision": 0.9629629629629629,
+    "recall": 1.0,
+    "f1-score": 0.9811320754716981,
+    "support": 26,
+    "confused_with": {}
+  },
+  "get_name": {
+    "precision": 0.9,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.7826086956521738,
+    "support": 26,
+    "confused_with": {
+      "inform": 3,
+      "affirm": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.9444444444444444,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9444444444444444,
+    "support": 18,
+    "confused_with": {
+      "get_gender": 1
+    }
+  },
+  "thank": {
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1-score": 0.8750000000000001,
+    "support": 7,
+    "confused_with": {}
+  },
+  "get_email": {
+    "precision": 1.0,
+    "recall": 0.9523809523809523,
+    "f1-score": 0.975609756097561,
+    "support": 21,
+    "confused_with": {
+      "get_phone": 1
+    }
+  },
+  "ask_service": {
+    "precision": 0.972972972972973,
+    "recall": 1.0,
+    "f1-score": 0.9863013698630138,
+    "support": 36,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 0.6923076923076923,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.6923076923076923,
+    "support": 13,
+    "confused_with": {
+      "get_gender": 2,
+      "greet": 1
+    }
+  },
+  "day_booking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 34,
+    "confused_with": {}
+  },
+  "ask": {
+    "precision": 0.6923076923076923,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.6666666666666666,
+    "support": 14,
+    "confused_with": {
+      "ask_price": 3,
+      "thank": 1
+    }
+  },
+  "get_gender": {
+    "precision": 0.125,
+    "recall": 0.1111111111111111,
+    "f1-score": 0.11764705882352941,
+    "support": 9,
+    "confused_with": {
+      "greet": 4,
+      "get_note": 2,
+      "thank": 1
+    }
+  },
+  "request_schedule": {
+    "precision": 0.7931034482758621,
+    "recall": 0.8846153846153846,
+    "f1-score": 0.8363636363636363,
+    "support": 26,
+    "confused_with": {
+      "inform": 2,
+      "ask_codauko": 1
+    }
+  },
+  "accuracy": 0.8841870824053452,
+  "macro avg": {
+    "precision": 0.8249121464251145,
+    "recall": 0.825292168149311,
+    "f1-score": 0.822352073832778,
+    "support": 449
+  },
+  "weighted avg": {
+    "precision": 0.8787639714191352,
+    "recall": 0.8841870824053452,
+    "f1-score": 0.8791414099121457,
+    "support": 449
+  }
+}
