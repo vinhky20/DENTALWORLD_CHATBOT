@@ -1,0 +1,98 @@
+[
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.6018096208572388
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.4070638418197632
+    }
+  },
+  {
+    "text": "cô",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.33690857887268066
+    }
+  },
+  {
+    "text": "bác",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.41857755184173584
+    }
+  },
+  {
+    "text": "nhổ răng sữa",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5688053965568542
+    }
+  },
+  {
+    "text": "ok bạn",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.8838742971420288
+    }
+  },
+  {
+    "text": "um yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2855921685695648
+    }
+  },
+  {
+    "text": "thời gian làm việc sao",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "ask_timetodo",
+      "confidence": 0.9889715313911438
+    }
+  },
+  {
+    "text": "Hoàng Nam",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.9896669983863831
+    }
+  },
+  {
+    "text": "Phan Thị Huỳnh Như",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "ask_service",
+      "confidence": 0.2673700451850891
+    }
+  },
+  {
+    "text": "Như Ý",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "ask_service",
+      "confidence": 0.98048996925354
+    }
+  },
+  {
+    "text": "cho mình hỏi cái này",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 0.9802026152610779
+    }
+  }
+]

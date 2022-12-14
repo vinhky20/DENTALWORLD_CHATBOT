@@ -1,0 +1,74 @@
+[
+  {
+    "text": "có thể tôi đến trễ xíu",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.11363999773023171
+    }
+  },
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.22605186450790302
+    }
+  },
+  {
+    "text": "Cám ơn ad",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.27004084969733644
+    }
+  },
+  {
+    "text": "ông nội",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.1561476026361051
+    }
+  },
+  {
+    "text": "niềng răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.37159571012241693
+    }
+  },
+  {
+    "text": "ye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.3151300970217711
+    }
+  },
+  {
+    "text": "bai",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4622180569126672
+    }
+  },
+  {
+    "text": "nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.19630446656701842
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "intent": "request_schedule",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.45120027802426826
+    }
+  }
+]

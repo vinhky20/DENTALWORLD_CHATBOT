@@ -1,0 +1,74 @@
+[
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.21307828486170066
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.1511077381018142
+    }
+  },
+  {
+    "text": "nhổ răng sữa",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.37963777740933186
+    }
+  },
+  {
+    "text": "ok bạn",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3806794042461003
+    }
+  },
+  {
+    "text": "tư vấn",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.22250402006472056
+    }
+  },
+  {
+    "text": "cho xin lịch làm việc",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.2426094215871196
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.44383034077225253
+    }
+  },
+  {
+    "text": "Hoàng Nam",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.7281835970831275
+    }
+  },
+  {
+    "text": "cho mình hỏi cái này",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 0.4950352552016287
+    }
+  }
+]

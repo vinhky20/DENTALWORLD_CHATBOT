@@ -4,6 +4,8 @@ nlu:
   examples: |
    - đặt lịch
    - tôi muốn đặt lịch
+   - tôi muốn đặt lịch tẩy trắng răng
+   - tôi muốn đặt lịch cạo vôi răng
    - tôi muốn đặt lịch khám bệnh
    - muốn đặt lịch
    - tôi cần đặt lịch cho dịch vụ khám
@@ -49,26 +51,7 @@ nlu:
    - no
    - ko
    - Không có nhu cầu
-- intent: inform
-  examples: |
-    - tôi muốn đặt lịch [khám răng](service)
-    - tôi muốn đặt lịch [trồng răng](service)
-    - tôi muốn đặt lịch [niềng răng](service)
-    - [nhổ răng](service)
-    - [trồng răng](service)
-    - tôi muốn [trồng răng sứ](service)
-    - tôi muốn nha sĩ [Hoàng Nam](dentist)
-    - tôi muốn nha sĩ [Kỳ Anh](dentist)
-    - tôi muốn nha sĩ [Minh Huy](dentist)
-    - tôi muốn nha sĩ [Vĩnh Kỳ](dentist)
-    - tôi muốn nha sĩ [Đoàn Huy](dentist)
-    - ai cũng được
-    - ngẫu nhiên đi
-    - [khám răng](service)
-    - [ai cũng được](dentist)
-    - [Minh Huy](dentist)
-    - [Nhổ răng](service)
-    - [Hoàng Nam](dentist)
+
 - intent: day_booking
   examples: |
    - [12/02/2021](date)
@@ -162,11 +145,6 @@ nlu:
    - [662233555](phone)
    - [4785223](phone)
    - [563236654](phone)
-- intent: get_time
-  examples: |
-    - [3h](time)
-    - [3h30](time)
-    - [8h30](time)
 - intent: get_email
   examples: |
    - [nam123@gmail.com](email)
@@ -240,10 +218,6 @@ nlu:
    - [cạo vôi răng](service)
    - [trám răng](service)
 
-- intent: book_intent
-  examples: |
-    - Đồng ý đặt lịch
-    - Bỏ đặt lịch
 - intent: greet
   examples: |
     - hey

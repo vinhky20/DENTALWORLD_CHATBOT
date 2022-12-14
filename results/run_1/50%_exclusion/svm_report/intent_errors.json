@@ -1,0 +1,114 @@
+[
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.11826263285798541
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.15005655769632784
+    }
+  },
+  {
+    "text": "địa chỉ nha khoa Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành ở đâu?",
+    "intent": "ask_address",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.13486870381128985
+    }
+  },
+  {
+    "text": "nhổ răng, tẩy trắng răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.255352179590067
+    }
+  },
+  {
+    "text": "nhổ răng sữa",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2701213134303001
+    }
+  },
+  {
+    "text": "ok bạn",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.24161811065553848
+    }
+  },
+  {
+    "text": "um yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.265734309136107
+    }
+  },
+  {
+    "text": "tư vấn",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.14331723963246756
+    }
+  },
+  {
+    "text": "cho xin lịch làm việc",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.21402174490220582
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.3514322788675417
+    }
+  },
+  {
+    "text": "Hoàng Nam",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.5250489008291759
+    }
+  },
+  {
+    "text": "ánh tuyết",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.12543736707735081
+    }
+  },
+  {
+    "text": "cho mình hỏi cái này",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 0.47212219851386955
+    }
+  },
+  {
+    "text": "ad ơi cho mình hỏi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 0.19630815543879024
+    }
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999999999834799
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999999999764952
+    }
+  },
+  {
+    "text": "Danh sách phòng khám",
+    "intent": "ask_list_clinic",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cho tôi xin danh sách phòng khám",
+    "intent": "ask_list_clinic",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cô",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999607162431434
+    }
+  },
+  {
+    "text": "bác",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999977561366954
+    }
+  },
+  {
+    "text": "nhổ răng sữa",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.9999995102220174
+    }
+  },
+  {
+    "text": "ok bạn",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9969878714390176
+    }
+  },
+  {
+    "text": "um yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9997004184608825
+    }
+  },
+  {
+    "text": "tư vấn",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.6152384585044599
+    }
+  },
+  {
+    "text": "tôi cần tư vấn",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9817746745679831
+    }
+  },
+  {
+    "text": "cho xin lịch làm việc",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9998915780090518
+    }
+  },
+  {
+    "text": "thời gian làm việc sao",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "ask_timetodo",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9885635718479265
+    }
+  },
+  {
+    "text": "hẹn gặp lại nha",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8808583707669884
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999998239214007
+    }
+  },
+  {
+    "text": "nh@dd.com",
+    "intent": "get_email",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999999729678993
+    }
+  },
+  {
+    "text": "est@abc.com",
+    "intent": "get_email",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999999390071413
+    }
+  },
+  {
+    "text": "nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5283503069361988
+    }
+  },
+  {
+    "text": "Như Ý",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9993164314369535
+    }
+  },
+  {
+    "text": "Mẹ ơi con bị nhức răng quá",
+    "intent": "ask_codauko",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8064444890460254
+    }
+  }
+]

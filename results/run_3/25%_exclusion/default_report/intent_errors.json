@@ -1,0 +1,66 @@
+[
+  {
+    "text": "gì cũng được",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9024661183357239
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4580609202384949
+    }
+  },
+  {
+    "text": "đặt tiếp",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.8577218055725098
+    }
+  },
+  {
+    "text": "Cho hỏi bây giờ là mấy giờ",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_worktime",
+      "confidence": 0.8658347725868225
+    }
+  },
+  {
+    "text": "thời gian làm việc sao",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "ask_timetodo",
+      "confidence": 0.9600703120231628
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.9645495414733887
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.9955702424049377
+    }
+  },
+  {
+    "text": "nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9556998014450073
+    }
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "text": "gì cũng được",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "gì cũng được",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ai cũng được",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "ai cũng được",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "trồng răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "khám răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Khưu Nguyễn Hoàng Nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "Khưu Nguyễn Hoàng Nam",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.45420557260513306,
+        "value": "Khưu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "customer",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.32449203729629517,
+        "value": "Nguyễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dentist",
+        "start": 12,
+        "end": 21,
+        "confidence_entity": 0.8050550222396851,
+        "value": "Hoàng Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "trần công án",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "trần công án",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5527467727661133,
+        "value": "trần",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "nam",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.6426498293876648,
+        "value": "nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chị ơi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8551815748214722,
+        "value": "chị",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cô ơi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.5237199664115906,
+        "value": "cô",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cháu ơi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9116084575653076,
+        "value": "cháu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

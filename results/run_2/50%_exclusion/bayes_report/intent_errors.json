@@ -1,0 +1,98 @@
+[
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999999679076274
+    }
+  },
+  {
+    "text": "cảm ơn",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999999986901997
+    }
+  },
+  {
+    "text": "chú",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999972904187092
+    }
+  },
+  {
+    "text": "ông nội",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.999931418350929
+    }
+  },
+  {
+    "text": "chữa tuỷ răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.7110803542157857
+    }
+  },
+  {
+    "text": "uh",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999999003113637
+    }
+  },
+  {
+    "text": "tôi muốn được tư vấn",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999999999943725
+    }
+  },
+  {
+    "text": "Chỉnh răng giá bao nhiêu",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999997041609714
+    }
+  },
+  {
+    "text": "123@zyx.com",
+    "intent": "get_email",
+    "intent_prediction": {
+      "name": "get_phone",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Lê Thị Vân Anh",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9016732082044597
+    }
+  },
+  {
+    "text": "chào ad nha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999991307781014
+    }
+  }
+]

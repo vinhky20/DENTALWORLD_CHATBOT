@@ -16,19 +16,11 @@ intents:
   - ask_name
   - request_schedule:
       use_entities: true
-  - inform:
-      use_entities: true
-  - chitchat:
-      use_entities: true
   - affirm:
       use_entities: true
   - deny:
       use_entities: true
-  - stop:
-      use_entities: true
   - thankyou:
-      use_entities: true
-  - bot_challenge:
       use_entities: true
   - day_booking:
       use_entities: true
@@ -216,18 +208,6 @@ responses:
        - Ngày: {date_book}
        - Giờ: {time_book}
        - Ghi chú: {note_book}
-  utter_noworries:
-    - text: Cảm ơn Anh/Chị ạ!
-  utter_chitchat:
-    - text: chitchat
-  utter_ask_continue:
-    - text: Anh/Chị có muốn tiếp tục?
-  utter_wrong_service:
-    - text: Phòng khám chưa có dịch vụ vừa rồi, anh chị vui lòng thử lại
-  utter_wrong_clinic:
-    - text: Nha sĩ anh chị vừa nhập không đúng, vui lòng nhập lại
-  utter_wrong_time:
-    - text: Giờ vừa rồi đã kín, vui lòng chọn giờ khác
   utter_ask_worktime:
   - text: Dạ phòng khám chúng em làm việc từ 8h đến 20h mõi ngày kế cả thứ 7 và chủ nhật đấy ạ. 
   utter_thank:

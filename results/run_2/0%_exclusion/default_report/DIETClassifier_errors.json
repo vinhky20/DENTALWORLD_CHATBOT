@@ -1,0 +1,215 @@
+[
+  {
+    "text": "ko có",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "ko có",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9161933064460754,
+        "value": "ko",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chú",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "chú",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8728061318397522,
+        "value": "chú",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ông nội",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "ông nội",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Chỉnh răng giá bao nhiêu",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.9584767818450928,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn nha sĩ Đoàn Huy",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "Đoàn Huy",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.66,
+        "value": "Đoàn Huy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "123@zyx.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "123@zyx.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9728296399116516,
+        "value": "123@zyx.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nguyễn Thị kiều trà",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "Nguyễn Thị kiều trà",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.4651474058628082,
+        "value": "Nguyễn Thị kiều",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Phan Thị Huỳnh Như",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Phan Thị Huỳnh Như",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 5,
+        "end": 18,
+        "confidence_entity": 0.4425143003463745,
+        "value": "Thị Huỳnh Như",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hồng nhung",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Hồng nhung",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.66,
+        "value": "Hồng nhung",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn đặt lịch nhổ răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.522085428237915,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Trồng răng có đau không",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6227707862854004,
+        "value": "Trồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

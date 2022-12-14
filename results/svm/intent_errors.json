@@ -1,0 +1,386 @@
+[
+  {
+    "text": "uh",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.14244177218411477
+    }
+  },
+  {
+    "text": "ok bạn",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2715353140289864
+    }
+  },
+  {
+    "text": "Không có nhu cầu",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.14616765184574904
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.6516799934627349
+    }
+  },
+  {
+    "text": "ai cũng được",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.1585127165355028
+    }
+  },
+  {
+    "text": "ngẫu nhiên đi",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.11533261439693132
+    }
+  },
+  {
+    "text": "ai cũng được",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.1585127165355028
+    }
+  },
+  {
+    "text": "Hoàng Nam",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.594082255769304
+    }
+  },
+  {
+    "text": "ánh",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.15502664637611382
+    }
+  },
+  {
+    "text": "không có",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.284178942817817
+    }
+  },
+  {
+    "text": "ko có",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2968950609629494
+    }
+  },
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.31169429664493975
+    }
+  },
+  {
+    "text": "có thể tôi đến trễ xíu",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.15249198910370929
+    }
+  },
+  {
+    "text": "em",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.18475561972912685
+    }
+  },
+  {
+    "text": "rạch dẫn lưu áp xe",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.22256095775661477
+    }
+  },
+  {
+    "text": "trám răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.33686558337439326
+    }
+  },
+  {
+    "text": "thứ 7 chủ nhật có làm không",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.12245293126692369
+    }
+  },
+  {
+    "text": "cho xin lịch làm việc",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.16777632346880658
+    }
+  },
+  {
+    "text": "phòng khám mình có lịch chủ nhật không",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.18703170038427006
+    }
+  },
+  {
+    "text": "lịch làm việc của nha khoa mình ra sao",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.1329074527609201
+    }
+  },
+  {
+    "text": "cho tôi hỏi cái này",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6097962024497499
+    }
+  },
+  {
+    "text": "Giá tẩy răng bao nhiêu",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.7364040705259813
+    }
+  },
+  {
+    "text": "Chỉnh răng giá bao nhiêu",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.6883834054447832
+    }
+  },
+  {
+    "text": "Cho hỏi bây giờ là mấy giờ",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.1475619649872746
+    }
+  },
+  {
+    "text": "Cám ơn ad",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.22363227107299982
+    }
+  },
+  {
+    "text": "tôi đặt lịch khám răng",
+    "intent": "request_schedule",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.237746691392907
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "intent": "request_schedule",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.42441859513353486
+    }
+  },
+  {
+    "text": "Tôi muốn đặt lịch khám răng",
+    "intent": "request_schedule",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.35245862883214324
+    }
+  },
+  {
+    "text": "có",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.20060966108204714
+    }
+  },
+  {
+    "text": "không",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.31670116918543667
+    }
+  },
+  {
+    "text": "ko",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.2826590877729724
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.3853030396018733
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch niềng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.39438306394784
+    }
+  },
+  {
+    "text": "nhổ răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_service",
+      "confidence": 0.2657098987035294
+    }
+  },
+  {
+    "text": "trồng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_service",
+      "confidence": 0.2580962244906141
+    }
+  },
+  {
+    "text": "khám răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_service",
+      "confidence": 0.2075941575443606
+    }
+  },
+  {
+    "text": "Minh Huy",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.5460753400281743
+    }
+  },
+  {
+    "text": "Nhổ răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_service",
+      "confidence": 0.2833818287918222
+    }
+  },
+  {
+    "text": "Khưu Nguyễn Hoàng Nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.24483235118013288
+    }
+  },
+  {
+    "text": "nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.21996649550919012
+    }
+  },
+  {
+    "text": "không có ghi chú",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.15682246990153417
+    }
+  },
+  {
+    "text": "gì cũng được",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.21766953507149397
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.14796670841921528
+    }
+  },
+  {
+    "text": "cho mình hỏi cái này",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 0.4118906884304373
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.19731463829820642
+    }
+  },
+  {
+    "text": "bai",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.40696593274662746
+    }
+  },
+  {
+    "text": "tư vấn",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.12757973236179865
+    }
+  },
+  {
+    "text": "tư vấn về dịch vụ cho mình",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_service",
+      "confidence": 0.1980088140415397
+    }
+  }
+]

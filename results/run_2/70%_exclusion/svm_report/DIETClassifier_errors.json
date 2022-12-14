@@ -1,0 +1,214 @@
+[
+  {
+    "text": "ko có",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "ko có",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chú",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "chú",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ông nội",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "ông nội",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Chỉnh răng giá bao nhiêu",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.8630647659301758,
+        "value": "Chỉnh răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn trồng răng sứ",
+    "entities": [
+      {
+        "start": 9,
+        "end": 22,
+        "value": "trồng răng sứ",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.445302277803421,
+        "value": "răng sứ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn nha sĩ Kỳ Anh",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "Kỳ Anh",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn nha sĩ Đoàn Huy",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "Đoàn Huy",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Phan Thị Huỳnh Như",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Phan Thị Huỳnh Như",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.26047834753990173,
+        "value": "Phan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chữa tuỷ răng là như thế nào",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "chữa tuỷ răng",
+        "entity": "service_ask"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.5607117414474487,
+        "value": "chữa tuỷ răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "giá của chữa tuỷ răng bao nhiêu",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "value": "chữa tuỷ răng",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9102222919464111,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "giá của cạo vôi răng bao nhiêu",
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "value": "cạo vôi răng",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9336215257644653,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "rạch dẫn lưu áp xe mất khoảng bao lâu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "rạch dẫn lưu áp xe",
+        "entity": "timetodo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.2903660833835602,
+        "value": "rạch dẫn lưu áp xe",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

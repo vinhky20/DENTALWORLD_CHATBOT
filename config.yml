@@ -4,7 +4,20 @@ language: vi
 
 pipeline:
 
-# Của mình
+  # - name: SpacyNLP
+  #   model: "vi_spacy_model"
+  # - name: SpacyTokenizer
+  # - name: SpacyFeaturizer
+  #   pooling: mean
+  # - name: LexicalSyntacticFeaturizer
+  # - name: CountVectorsFeaturizer
+  # - name: CountVectorsFeaturizer
+  #   analyzer: char_wb
+  #   min_ngram: 1
+  #   max_ngram: 4
+  # - name: DIETClassifier
+  #   epochs: 100
+  # - name: SpacyEntityExtractor
   - name: SpacyNLP
     model: "vi_spacy_model"
   - name: VietnameseTokenizer
@@ -17,37 +30,9 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     epochs: 100
-  - name: SpacyEntityExtractor
-
-#Của Long đưa
-  #  - name: VietnameseTokenizer
-  #  - name: CountVectorsFeaturizer
-  #  - name: CountVectorsFeaturizer
-  #    analyzer: char_wb
-  #    min_ngram: 1
-  #    max_ngram: 4
-  #  - name: sparse_naive_bayes_intent_classifier.SparseNaiveBayesIntentClassifier
-  #    alpha: 0.1
-  #  - name: DIETClassifier
-  #    epochs: 100
-  #    intent_classification: False
-  #    constrain_similarities: true
-
-# SVM
-  #  - name: VietnameseTokenizer
-  #  - name: LanguageModelFeaturizer
-  #    model_name: phobert
-  #    model_weights: vinai/phobert-base
-  #  - name: "SklearnIntentClassifier"
-  #    C: [1, 2, 5, 10, 20, 100]
-  #    kernels: ["linear"]
-  #    "gamma": [0.1]
-  #    "max_cross_validation_folds": 5
-  #    "scoring_function": "f1_weighted"
-  #  - name: DIETClassifier
-  #    epochs: 100
-  #    intent_classification: False
-  #    constrain_similarities: true
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

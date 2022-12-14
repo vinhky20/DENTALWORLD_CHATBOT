@@ -1,0 +1,66 @@
+[
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.14439366103571777
+    }
+  },
+  {
+    "text": "niềng răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.28576505179961453
+    }
+  },
+  {
+    "text": "chữa tuỷ răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.26876569410515555
+    }
+  },
+  {
+    "text": "uh",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.1546164151042032
+    }
+  },
+  {
+    "text": "Chỉnh răng giá bao nhiêu",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.2937469289645979
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.303808920477209
+    }
+  },
+  {
+    "text": "Tôi muốn đặt lịch nhổ răng",
+    "intent": "request_schedule",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.3947277857593358
+    }
+  },
+  {
+    "text": "Tôi muốn đặt lịch khám răng",
+    "intent": "request_schedule",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.50061731357798
+    }
+  }
+]

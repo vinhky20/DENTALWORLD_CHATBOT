@@ -1,0 +1,82 @@
+[
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.5767544507980347
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4368491768836975
+    }
+  },
+  {
+    "text": "ok bạn",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.8127325773239136
+    }
+  },
+  {
+    "text": "lịch phòng khám như nào",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.6492041945457458
+    }
+  },
+  {
+    "text": "thời gian làm việc sao",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "ask_timetodo",
+      "confidence": 0.993087887763977
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.617766261100769
+    }
+  },
+  {
+    "text": "Hoàng Nam",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.7931349873542786
+    }
+  },
+  {
+    "text": "Như Ý",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "ask_service",
+      "confidence": 0.9192839860916138
+    }
+  },
+  {
+    "text": "Mẹ ơi con bị nhức răng quá",
+    "intent": "ask_codauko",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49040141701698303
+    }
+  },
+  {
+    "text": "cho mình hỏi cái này",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 0.9700369834899902
+    }
+  }
+]

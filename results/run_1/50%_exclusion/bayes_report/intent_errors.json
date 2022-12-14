@@ -1,0 +1,98 @@
+[
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9984836159930439
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 0.9744326908055269
+    }
+  },
+  {
+    "text": "thank u",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.7964733413500282
+    }
+  },
+  {
+    "text": "cô",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.5218798885168139
+    }
+  },
+  {
+    "text": "bác",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9954794144829044
+    }
+  },
+  {
+    "text": "nhổ răng sữa",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "ask_service",
+      "confidence": 0.965745428950786
+    }
+  },
+  {
+    "text": "ok bạn",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999999999962483
+    }
+  },
+  {
+    "text": "um yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9997015009126009
+    }
+  },
+  {
+    "text": "Hoàng Nam",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nh@dd.com",
+    "intent": "get_email",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9547200847735848
+    }
+  },
+  {
+    "text": "Mẹ ơi con bị nhức răng quá",
+    "intent": "ask_codauko",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9999787603357038
+    }
+  },
+  {
+    "text": "cho mình hỏi cái này",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 1.0
+    }
+  }
+]

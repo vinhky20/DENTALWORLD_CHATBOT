@@ -257,7 +257,7 @@ class AskSlotTimeAction(Action):
         print(idClinic)
 
         # lấy danh sách giờ đã được đặt
-        api = "http://localhost:5000/clinicSchedule/bookedTimeSlot/" + \
+        api = "http://localhost:5000/bookings/bookedTimeSlot/" + \
             str(idClinic) + "/" + dateChanged[0:10]
         response = requests.get(api)
         data = response.json()

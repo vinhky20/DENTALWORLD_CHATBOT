@@ -1,0 +1,275 @@
+[
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chú",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "chú",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9038995504379272,
+        "value": "chú",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ông nội",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "ông nội",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn được tư vấn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.8647757768630981,
+        "value": "được",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chỉnh răng giá bao nhiêu",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.8871430158615112,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn nha sĩ Kỳ Anh",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "Kỳ Anh",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.9888848066329956,
+        "value": "Kỳ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn nha sĩ Đoàn Huy",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "Đoàn Huy",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.9901581406593323,
+        "value": "Huy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "good night",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "note",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6034550070762634,
+        "value": "good night",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "123@zyx.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "123@zyx.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9494946599006653,
+        "value": "123@zyx.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ánh tuyết",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "ánh tuyết",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nguyễn Thị kiều trà",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "Nguyễn Thị kiều trà",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9651668667793274,
+        "value": "Nguyễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "address",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.7756378650665283,
+        "value": "kiều trà",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Phan Thị Huỳnh Như",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Phan Thị Huỳnh Như",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.3197474777698517,
+        "value": "Huỳnh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Lê Thị Vân Anh",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Lê Thị Vân Anh",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hồng nhung",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Hồng nhung",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.40161803364753723,
+        "value": "Hồng nhung",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn đặt lịch nhổ răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.7488707304000854,
+        "value": "nhổ răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn đặt lịch khám răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.5832040905952454,
+        "value": "khám răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

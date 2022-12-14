@@ -1,0 +1,114 @@
+[
+  {
+    "text": "có thể tôi đến trễ xíu",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "ask_worktime",
+      "confidence": 0.13442451021024418
+    }
+  },
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.18037343504567113
+    }
+  },
+  {
+    "text": "Danh sách phòng khám",
+    "intent": "ask_list_clinic",
+    "intent_prediction": {
+      "name": "ask_worktime",
+      "confidence": 0.14441638810512195
+    }
+  },
+  {
+    "text": "Có bao nhiêu phòng khám",
+    "intent": "ask_list_clinic",
+    "intent_prediction": {
+      "name": "ask_worktime",
+      "confidence": 0.15161517456540866
+    }
+  },
+  {
+    "text": "Cám ơn ad",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.25157818576096425
+    }
+  },
+  {
+    "text": "bác",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.18784943359344697
+    }
+  },
+  {
+    "text": "ông nội",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.14021852278808875
+    }
+  },
+  {
+    "text": "niềng răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.27727144966602496
+    }
+  },
+  {
+    "text": "niềng răng, nhổ răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.26055033006878475
+    }
+  },
+  {
+    "text": "Cho hỏi bây giờ là mấy giờ",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_worktime",
+      "confidence": 0.21818404076190825
+    }
+  },
+  {
+    "text": "tư vấn giùm tôi với",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.29511565532693596
+    }
+  },
+  {
+    "text": "ai cũng được",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.1697032315046636
+    }
+  },
+  {
+    "text": "bai",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2795499842130541
+    }
+  },
+  {
+    "text": "nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.1887885099428535
+    }
+  }
+]

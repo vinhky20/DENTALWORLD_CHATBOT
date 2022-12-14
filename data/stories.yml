@@ -42,6 +42,21 @@ stories:
       - intent: goodbye
       - action: rep_goodbye
 
+  - story: "abc"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_worktime
+      - action: utter_ask_worktime
+      - intent: goodbye
+      - action: rep_goodbye
+
   - story: "3"
     steps:
       - intent: greet

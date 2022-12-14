@@ -1,0 +1,261 @@
+[
+  {
+    "text": "ko",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "ko",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cô",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "cô",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.6780272722244263,
+        "value": "cô",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bác",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "bác",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nhổ răng sữa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "nhổ răng sữa",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.49785223603248596,
+        "value": "nhổ răng sữa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "trồng răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Phan Thị Huỳnh Như",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Phan Thị Huỳnh Như",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "address",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.33013930916786194,
+        "value": "Phan Thị Huỳnh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "nam",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9748436808586121,
+        "value": "nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nguyễn Thị kiều trà",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "Nguyễn Thị kiều trà",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9981122016906738,
+        "value": "Nguyễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "address",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.80009925365448,
+        "value": "kiều",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ánh tuyết",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "ánh tuyết",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.4887276887893677,
+        "value": "ánh tuyết",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Như Ý",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Như Ý",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.32031184434890747,
+        "value": "Ý",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mẹ ơi con bị nhức răng quá",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.41121789813041687,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lắp răng giả bao nhiêu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "lắp răng giả",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.5737133026123047,
+        "value": "lắp răng giả",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "niềng răng mất khoảng bao lâu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "niềng răng",
+        "entity": "timetodo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service_ask",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.55,
+        "value": "niềng răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

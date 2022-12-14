@@ -1,0 +1,185 @@
+[
+  {
+    "text": "gì cũng được",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "gì cũng được",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thứ 7 chủ nhật có làm không",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "phone",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.9928840398788452,
+        "value": "7",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "note",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.8878912329673767,
+        "value": "không",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ai cũng được",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "ai cũng được",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "trồng răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "khám răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Khưu Nguyễn Hoàng Nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "Khưu Nguyễn Hoàng Nam",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.7255569100379944,
+        "value": "Khưu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "customer",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9970735311508179,
+        "value": "Nguyễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dentist",
+        "start": 12,
+        "end": 21,
+        "confidence_entity": 0.9875626564025879,
+        "value": "Hoàng Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "trần công án",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "trần công án",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9967920184135437,
+        "value": "trần",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "note",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.64,
+        "value": "công án",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "nam",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dentist",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9964983463287354,
+        "value": "nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn đặt lịch tẩy trắng răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "timetodo",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.32221466302871704,
+        "value": "trắng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

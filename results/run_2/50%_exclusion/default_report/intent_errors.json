@@ -1,0 +1,82 @@
+[
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5444272756576538
+    }
+  },
+  {
+    "text": "chú",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.6903015971183777
+    }
+  },
+  {
+    "text": "ông nội",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.45514073967933655
+    }
+  },
+  {
+    "text": "tôi muốn được tư vấn",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.5010566115379333
+    }
+  },
+  {
+    "text": "Chỉnh răng giá bao nhiêu",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.9766960740089417
+    }
+  },
+  {
+    "text": "lịch phòng khám như nào",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3123801052570343
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.19119849801063538
+    }
+  },
+  {
+    "text": "123@zyx.com",
+    "intent": "get_email",
+    "intent_prediction": {
+      "name": "get_phone",
+      "confidence": 0.7225695848464966
+    }
+  },
+  {
+    "text": "Hồng nhung",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6477327942848206
+    }
+  },
+  {
+    "text": "hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5611324906349182
+    }
+  }
+]

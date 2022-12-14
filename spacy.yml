@@ -1,0 +1,27 @@
+language: vi
+
+pipeline:
+  - name: SpacyNLP
+    model: "vi_spacy_model"
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
+    pooling: mean
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 100
+  - name: SpacyEntityExtractor
+
+
+
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+    constrain_similarities: true

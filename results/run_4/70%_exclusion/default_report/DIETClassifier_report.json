@@ -1,0 +1,111 @@
+{
+  "date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "price": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 27,
+    "confused_with": {
+      "timetodo": 3
+    }
+  },
+  "service_ask": {
+    "precision": 0.7727272727272727,
+    "recall": 0.8095238095238095,
+    "f1-score": 0.7906976744186046,
+    "support": 21,
+    "confused_with": {}
+  },
+  "phone": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "customer": {
+    "precision": 1.0,
+    "recall": 0.18181818181818182,
+    "f1-score": 0.3076923076923077,
+    "support": 11,
+    "confused_with": {
+      "address": 6,
+      "price": 3
+    }
+  },
+  "dentist": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 5,
+    "confused_with": {
+      "note": 3
+    }
+  },
+  "address": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 15,
+    "confused_with": {}
+  },
+  "email": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "note": {
+    "precision": 0.2,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.16666666666666666,
+    "support": 7,
+    "confused_with": {}
+  },
+  "service": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "gender": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "timetodo": {
+    "precision": 0.8928571428571429,
+    "recall": 0.9615384615384616,
+    "f1-score": 0.9259259259259259,
+    "support": 26,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.8333333333333334,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.8088235294117647,
+    "support": 140
+  },
+  "macro avg": {
+    "precision": 0.7890632515632516,
+    "recall": 0.682052207052207,
+    "f1-score": 0.6872115108549218,
+    "support": 140
+  },
+  "weighted avg": {
+    "precision": 0.8325417439703156,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.7742619568200964,
+    "support": 140
+  }
+}

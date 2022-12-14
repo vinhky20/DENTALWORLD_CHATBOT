@@ -1,0 +1,119 @@
+[
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cô",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "cô",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bác",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "bác",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ok bạn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.4753493070602417,
+        "value": "ok",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gender",
+        "start": 3,
+        "end": 6,
+        "confidence_entity": 0.9922313690185547,
+        "value": "bạn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hoàng Nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Hoàng Nam",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.5219614505767822,
+        "value": "Hoàng Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Phan Thị Huỳnh Như",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Phan Thị Huỳnh Như",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Như Ý",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Như Ý",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn đặt lịch tẩy trắng răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 18,
+        "end": 32,
+        "confidence_entity": 0.6777780652046204,
+        "value": "tẩy trắng răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

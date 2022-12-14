@@ -1,0 +1,114 @@
+[
+  {
+    "text": "có thể tôi đến trễ xíu",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "ask",
+      "confidence": 0.9694332409614108
+    }
+  },
+  {
+    "text": "ko",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9996614684287811
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.6416927946984611
+    }
+  },
+  {
+    "text": "Cám ơn ad",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8735552090795078
+    }
+  },
+  {
+    "text": "ông nội",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.9989416260249638
+    }
+  },
+  {
+    "text": "niềng răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.6523569584357748
+    }
+  },
+  {
+    "text": "niềng răng, nhổ răng",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.9997142906302511
+    }
+  },
+  {
+    "text": "có",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "get_gender",
+      "confidence": 0.5910229202246607
+    }
+  },
+  {
+    "text": "Cho hỏi bây giờ là mấy giờ",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nhổ răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_service",
+      "confidence": 0.9999999988199448
+    }
+  },
+  {
+    "text": "ai cũng được",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.8925772563441612
+    }
+  },
+  {
+    "text": "bai",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8822389800260838
+    }
+  },
+  {
+    "text": "nh@dd.com",
+    "intent": "get_email",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.991738024185762
+    }
+  },
+  {
+    "text": "Lưu Tiến Đạo",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9999999926980081
+    }
+  }
+]

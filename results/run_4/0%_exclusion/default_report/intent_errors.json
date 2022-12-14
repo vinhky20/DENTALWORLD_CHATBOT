@@ -1,0 +1,82 @@
+[
+  {
+    "text": "có thể tôi đến trễ xíu",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "get_service",
+      "confidence": 0.2933286428451538
+    }
+  },
+  {
+    "text": "bác",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "ask_codauko",
+      "confidence": 0.5248153805732727
+    }
+  },
+  {
+    "text": "ông nội",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2619437277317047
+    }
+  },
+  {
+    "text": "có",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.8684682846069336
+    }
+  },
+  {
+    "text": "Cho hỏi bây giờ là mấy giờ",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_worktime",
+      "confidence": 0.9025593996047974
+    }
+  },
+  {
+    "text": "bai",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6451671719551086
+    }
+  },
+  {
+    "text": "xin chào tạm biệt",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7310457825660706
+    }
+  },
+  {
+    "text": "Lưu Tiến Đạo",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6717512607574463
+    }
+  },
+  {
+    "text": "Nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8904694318771362
+    }
+  },
+  {
+    "text": "nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8056355118751526
+    }
+  }
+]

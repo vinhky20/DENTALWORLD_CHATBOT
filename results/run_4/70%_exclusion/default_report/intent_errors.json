@@ -1,0 +1,130 @@
+[
+  {
+    "text": "có thể tôi đến trễ xíu",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.6670862436294556
+    }
+  },
+  {
+    "text": "Cám ơn ad",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6858621835708618
+    }
+  },
+  {
+    "text": "bác",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "ask_list_clinic",
+      "confidence": 0.28488287329673767
+    }
+  },
+  {
+    "text": "ông nội",
+    "intent": "get_gender",
+    "intent_prediction": {
+      "name": "get_name",
+      "confidence": 0.6850735545158386
+    }
+  },
+  {
+    "text": "ye",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5784398913383484
+    }
+  },
+  {
+    "text": "có",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.45264774560928345
+    }
+  },
+  {
+    "text": "Cho hỏi bây giờ là mấy giờ",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "ask_worktime",
+      "confidence": 0.2507764399051666
+    }
+  },
+  {
+    "text": "tôi muốn được tư vấn",
+    "intent": "ask",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.4262678921222687
+    }
+  },
+  {
+    "text": "lịch phòng khám như nào",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.31942224502563477
+    }
+  },
+  {
+    "text": "giờ làm việc của phòng khám như thế nào",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "ask_service",
+      "confidence": 0.45812997221946716
+    }
+  },
+  {
+    "text": "nhổ răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_service",
+      "confidence": 0.7453109622001648
+    }
+  },
+  {
+    "text": "ai cũng được",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "get_note",
+      "confidence": 0.7680012583732605
+    }
+  },
+  {
+    "text": "chào tạm biệt",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9991207122802734
+    }
+  },
+  {
+    "text": "bai",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.234127014875412
+    }
+  },
+  {
+    "text": "xin chào tạm biệt",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9993923902511597
+    }
+  },
+  {
+    "text": "Lưu Tiến Đạo",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "ask_codauko",
+      "confidence": 0.30743902921676636
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "text": "gì cũng được",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2647571307539572
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.12081614294448725
+    }
+  },
+  {
+    "text": "nhổ răng sữa",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.290229157354621
+    }
+  },
+  {
+    "text": "rạch dẫn lưu áp xe",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.16599401187338292
+    }
+  },
+  {
+    "text": "đặt tiếp",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.18193588689832232
+    }
+  },
+  {
+    "text": "thứ 7 chủ nhật có làm không",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "ask_codauko",
+      "confidence": 0.1345118692452709
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.510105354209201
+    }
+  },
+  {
+    "text": "nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.17878433318011377
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch tẩy trắng răng",
+    "intent": "request_schedule",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.33489580222510174
+    }
+  }
+]

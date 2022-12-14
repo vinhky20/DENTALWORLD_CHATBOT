@@ -1,0 +1,233 @@
+[
+  {
+    "text": "ko",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "ko",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cô",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "cô",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bác",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "bác",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "trồng răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "nam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "nam",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Như Ý",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Như Ý",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "giá của trám răng bao nhiêu",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "trám răng",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.5016703009605408,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lắp răng giả bao nhiêu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "lắp răng giả",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.3447241485118866,
+        "value": "răng giả",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "giá của chữa tuỷ răng bao nhiêu",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "value": "chữa tuỷ răng",
+        "entity": "price"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.5948445796966553,
+        "value": "tuỷ răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nhổ răng sẽ tốn bao nhiêu thời gian",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "nhổ răng",
+        "entity": "timetodo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "timetodo",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.7595664262771606,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "trám răng mất khoảng bao lâu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "trám răng",
+        "entity": "timetodo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "timetodo",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.8849526047706604,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "niềng răng mất khoảng bao lâu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "niềng răng",
+        "entity": "timetodo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "timetodo",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.6678235530853271,
+        "value": "răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thời gian chữa tuỷ răng là bao lâu",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "value": "chữa tuỷ răng",
+        "entity": "timetodo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.3066120743751526,
+        "value": "tuỷ răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

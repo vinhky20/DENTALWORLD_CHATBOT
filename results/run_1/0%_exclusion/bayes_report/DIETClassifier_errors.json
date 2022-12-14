@@ -1,0 +1,135 @@
+[
+  {
+    "text": "ko",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "ko",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.7044649720191956,
+        "value": "ko",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cô",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "cô",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bác",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "bác",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ok bạn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.6816832423210144,
+        "value": "ok",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gender",
+        "start": 3,
+        "end": 6,
+        "confidence_entity": 0.9932560920715332,
+        "value": "bạn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "trồng răng",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Phan Thị Huỳnh Như",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "Phan Thị Huỳnh Như",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "customer",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.6717548966407776,
+        "value": "Thị Huỳnh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Như Ý",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Như Ý",
+        "entity": "customer"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service_ask",
+        "start": 4,
+        "end": 5,
+        "confidence_entity": 0.49373969435691833,
+        "value": "Ý",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

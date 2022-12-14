@@ -1,0 +1,66 @@
+[
+  {
+    "text": "gì cũng được",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.22455014228228778
+    }
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "intent": "get_note",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.15708915677797394
+    }
+  },
+  {
+    "text": "nhổ răng sữa",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.3968133033587789
+    }
+  },
+  {
+    "text": "rạch dẫn lưu áp xe",
+    "intent": "get_service",
+    "intent_prediction": {
+      "name": "ask_price",
+      "confidence": 0.12646444243280033
+    }
+  },
+  {
+    "text": "thứ 7 chủ nhật có làm không",
+    "intent": "ask_worktime",
+    "intent_prediction": {
+      "name": "ask_codauko",
+      "confidence": 0.13562110002437622
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch trồng răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.5246175270962509
+    }
+  },
+  {
+    "text": "tôi muốn đặt lịch khám răng",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "request_schedule",
+      "confidence": 0.7416026406825554
+    }
+  },
+  {
+    "text": "Khưu Nguyễn Hoàng Nam",
+    "intent": "get_name",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4026390755157737
+    }
+  }
+]

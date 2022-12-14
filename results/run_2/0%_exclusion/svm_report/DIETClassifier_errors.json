@@ -1,0 +1,66 @@
+[
+  {
+    "text": "ko có",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "ko có",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xin số bác sĩ luôn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "cho tôi xin số bác sĩ luôn",
+        "entity": "note"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Chỉnh răng giá bao nhiêu",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "price",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9636957049369812,
+        "value": "Chỉnh răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn nha sĩ Kỳ Anh",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "Kỳ Anh",
+        "entity": "dentist"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi muốn đặt lịch nhổ răng",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.7544184327125549,
+        "value": "nhổ răng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
