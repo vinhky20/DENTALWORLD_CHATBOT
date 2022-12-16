@@ -12,8 +12,6 @@ intents:
   - ask_service
   - ask_price
   - ask_timetodo
-  - ask_func_list
-  - ask_name
   - request_schedule:
       use_entities: true
   - affirm:
@@ -183,20 +181,36 @@ slots:
 responses:
   utter_ask_service:
   - text: "{gender} vui lòng chọn dịch vụ muốn khám!"
+  - text: "{gender} chọn dịch vụ muốn khám giúp em nhé!"
+  - text: "Hãy chọn dịch vụ mà {gender} muốn thực hiện nhé!"
   utter_ask_clinic:
-  - text: "{gender} vui lòng cho chọn nha sĩ muốn khám"
+  - text: "{gender} vui lòng cho chọn nha khoa muốn khám nhé!"
+  - text: "{gender} hãy chọn nha khoa mà mình muốn ạ!"
+  - text: "Mời {gender} chọn nha khoa muốn khám ạ!"
   utter_ask_customer:
-  - text: Vui lòng cho em xin họ tên?
+  - text: "Vui lòng cho em xin họ tên ạ!"
+  - text: "{gender} vui lòng cho em xin họ tên?"
+  - text: "Vui lòng cho em xin họ tên nha {gender}?"
   utter_ask_phone:
-  - text: "Số điện thoại của {gender} là?"
+  - text: "Số điện thoại của {gender} ạ?"
+  - text: "{gender} cho em xin số điện thoại để liên hệ nhé ạ!"
+  - text: "Số điện thoại của {gender} là gì ạ?"
   utter_ask_email:
-  - text: Vui lòng nhập email giúp em nhé!
+  - text: "{gender} vui lòng nhập email giúp em nhé!"
+  - text: "Vui lòng nhập email giúp em nhé {gender}!"
+  - text: "{gender} hãy nhập email để em có thể gửi xác nhận lịch hẹn ạ!"
   utter_ask_date:
   - text: "Cho em hỏi {gender} muốn chọn ngày nào ạ?"
+  - text: "{gender} muốn chọn ngày nào ạ?"
+  - text: "{gender} vui lòng chọn ngày mình muốn khám nhé!"
   utter_ask_note:
   - text: "Cho em hỏi {gender} có thêm lưu ý gì không ạ?"
+  - text: "Có lưu ý gì, {gender} hãy cho em biết nhé!"
+  - text: "{gender} có thêm lưu ý gì không ạ?"
   utter_submit:
   - text: "Hoàn tất, hẹn gặp lại {gender}!"
+  - text: "Đã đặt lịch thành công, hẹn gặp lại {gender} tại nha khoa ạ!"
+  - text: "Hoàn tất, xin hẹn gặp lại {gender} ạ!"
   utter_slots_values:
   - text: |-
       Em xin xác nhận lại thông tin {gender} đã đặt:
@@ -209,9 +223,11 @@ responses:
        - Giờ: {time_book}
        - Ghi chú: {note_book}
   utter_ask_worktime:
-  - text: Dạ phòng khám chúng em làm việc từ 8h đến 20h mõi ngày kế cả thứ 7 và chủ nhật đấy ạ. 
+  - text: Dạ phòng khám chúng em làm việc từ 8h đến 17h mỗi ngày kế cả thứ 7 và chủ nhật đấy ạ. 
   utter_thank:
   - text: Dạ được phục vụ cho anh chị là niềm vui của chúng em ạ!
+  - text: Dạ không có gì đâu ạ, đấy là niềm vui của chúng em khi được phục vụ cho quý khách!
+  - text: Dạ sự hài lòng của quý khách là niềm vui của em ạ!
   utter_ask_codauko:
   - text: Sẽ không đau vì dịch vụ nha khoa ngày nay đã phát triển rất hoàn thiện. Với sự giúp đỡ của thuốc gây tê, bạn sẽ không phải quá lo lắng về vấn đề đau đớn.
 

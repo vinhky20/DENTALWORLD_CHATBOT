@@ -42,6 +42,50 @@ stories:
       - intent: goodbye
       - action: rep_goodbye
 
+  - story: "xyz"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask
+      - action: rep_ask
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_address
+      - action: rep_ask_address
+      - intent: goodbye
+      - action: rep_goodbye
+
+  - story: "nml"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: goodbye
+      - action: rep_goodbye
+
+  - story: "kml"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: goodbye
+      - action: rep_goodbye
+
+
   - story: "abc"
     steps:
       - intent: greet
@@ -122,3 +166,32 @@ stories:
       - intent: goodbye
       - action: rep_goodbye
 
+  - story: "6"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask
+      - action: rep_ask
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: goodbye
+      - action: rep_goodbye
+
+  - story: "7"
+    steps:
+      - intent: greet
+      - action: rep_greet
+      - intent: get_gender
+      - action: rep_get_gender
+      - intent: ask
+      - action: rep_ask
+      - intent: ask_price
+      - action: rep_ask_price
+      - intent: ask_timetodo
+      - action: rep_ask_timetodo
+      - intent: goodbye
+      - action: rep_goodbye

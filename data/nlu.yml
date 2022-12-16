@@ -220,98 +220,98 @@ nlu:
 
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - xin chào
-    - chào bạn
-    - chào buổi tối
-    - chào bot
-    - giúp mình với
-    - cho tôi hỏi
-    - alo
-    - chào buổi sáng
-    - ad ơi
-    - phòng khám ơi
-    - bạn ơi
-    - cháu ơi
-    - con ơi
-    - page ơi
-    - chị ơi
-    - cô ơi
-    - chào
-    - xin chào bạn
-    - xin chào ad
-    - anh ơi
-    - cho mình hỏi
-    - alo alo
-    - cho mình hỏi cái này
-    - bạn ơi bạn
-    - chào phòng khám
-    - chào ad
-    - mình xin chào bạn
-    - xin chào
-    - xin chào phòng khám
-    - chào ad nha
-    - cho mình hỏi là
-    - cho tôi hỏi
-    - alo alo
-    - chào bot nha
-    - bot ơi
-    - ad ơi cho mình hỏi
+   - hey
+   - hello
+   - hi
+   - xin chào
+   - chào bạn
+   - chào buổi tối
+   - chào bot
+   - giúp mình với
+   - cho tôi hỏi
+   - alo
+   - chào buổi sáng
+   - ad ơi
+   - phòng khám ơi
+   - bạn ơi
+   - cháu ơi
+   - con ơi
+   - page ơi
+   - chị ơi
+   - cô ơi
+   - chào
+   - xin chào bạn
+   - xin chào ad
+   - anh ơi
+   - cho mình hỏi
+   - alo alo
+   - cho mình hỏi cái này
+   - bạn ơi bạn
+   - chào phòng khám
+   - chào ad
+   - mình xin chào bạn
+   - xin chào
+   - xin chào phòng khám
+   - chào ad nha
+   - cho mình hỏi là
+   - cho tôi hỏi
+   - alo alo
+   - chào bot nha
+   - bot ơi
+   - ad ơi cho mình hỏi
 
 - intent: goodbye
   examples: |
-    - tạm biệt
-    - good bye
-    - xin tạm biệt
-    - gặp bạn sau nhé
-    - good night
-    - bye
-    - goodbye
-    - bye bye
-    - bai
-    - tạm biệt
-    - bye
-    - bye bye nha
-    - chào tạm biệt
-    - hẹn gặp lại nha
-    - gặp lại sau
-    - hẹn gặp vào ngày mai
-    - goodbye
-    - xin chào tạm biệt
-    - tạm biệt bạn nha
-    - bye ad
-    - bye bot
+   - tạm biệt
+   - good bye
+   - xin tạm biệt
+   - gặp bạn sau nhé
+   - good night
+   - bye
+   - goodbye
+   - bye bye
+   - bai
+   - tạm biệt
+   - bye
+   - bye bye nha
+   - chào tạm biệt
+   - hẹn gặp lại nha
+   - gặp lại sau
+   - hẹn gặp vào ngày mai
+   - goodbye
+   - xin chào tạm biệt
+   - tạm biệt bạn nha
+   - bye ad
+   - bye bot
 
 - intent: ask_address
   examples: |
-     - Phòng khám nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu vậy?
-     - Nha khoa nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu vậy?
-     - Phòng khám nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu?
-     - Nha khoa nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu?
-     - địa chỉ nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) là gì?
-     - địa chỉ nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu?
-     - cho tôi xin địa chỉ nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address)
+   - Phòng khám nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu vậy?
+   - Nha khoa nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu vậy?
+   - Phòng khám nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu?
+   - Nha khoa nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu?
+   - địa chỉ nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) là gì?
+   - địa chỉ nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address) ở đâu?
+   - cho tôi xin địa chỉ nha khoa [Tâm Đức, Sài Gòn, Miền Tây, Quốc tế DAISY, Ninh Kiều, Lâm Gia, Hà Thành](address)
 
 
 - intent: ask_worktime
   examples: |
-    - lịch làm việc của phòng khám thế nào
-    - phòng khám làm việc những ngày nào
-    - thời gian làm việc sao
-    - giờ làm việc sao
-    - phòng khám mấy giờ mở cửa
-    - phòng khám mở cửa mấy giờ
-    - thứ 7 chủ nhật có làm không
-    - cho xin lịch làm việc
-    - giờ làm việc của phòng khám
-    - lịch phòng khám như nào
-    - phòng khám mình có lịch chủ nhật không
-    - lịch làm việc của nha khoa mình ra sao
-    - giờ làm việc của phòng khám như thế nào
-    - giờ mở cửa của phòng khám
-    - phòng khám đóng cửa vào lúc mấy giờ
+   - lịch làm việc của phòng khám thế nào
+   - phòng khám làm việc những ngày nào
+   - thời gian làm việc sao
+   - giờ làm việc sao
+   - phòng khám mấy giờ mở cửa
+   - phòng khám mở cửa mấy giờ
+   - thứ 7 chủ nhật có làm không
+   - cho xin lịch làm việc
+   - giờ làm việc của phòng khám
+   - lịch phòng khám như nào
+   - phòng khám mình có lịch chủ nhật không
+   - lịch làm việc của nha khoa mình ra sao
+   - giờ làm việc của phòng khám như thế nào
+   - giờ mở cửa của phòng khám
+   - phòng khám đóng cửa vào lúc mấy giờ
 
 
 - intent: ask
@@ -383,147 +383,147 @@ nlu:
 
 - intent: ask_service
   examples: |
-    - cho tôi hỏi về dịch vụ [niềng răng](service_ask)
-    - cho tôi hỏi về dịch vụ [tẩy trắng răng](service_ask)
-    - cho tôi hỏi về dịch vụ [nhổ răng](service_ask)
-    - cho tôi hỏi về dịch vụ [chữa tuỷ răng](service_ask)
-    - cho tôi hỏi về dịch vụ [lắp răng giả](service_ask)
-    - cho tôi hỏi về dịch vụ [rạch dẫn lưu áp xe](service_ask)
-    - cho tôi hỏi về dịch vụ [nhổ răng sữa](service_ask)
-    - cho tôi hỏi về dịch vụ [cạo vôi răng](service_ask)
-    - cho tôi hỏi về dịch vụ [trám răng](service_ask)
-    - [niềng răng](service_ask) là như thế nào
-    - [tẩy trắng răng](service_ask) là như thế nào
-    - [nhổ răng](service_ask) là như thế nào
-    - [chữa tuỷ răng](service_ask) là như thế nào
-    - [lắp răng giả](service_ask) là như thế nào
-    - [rạch dẫn lưu áp xe](service_ask) là như thế nào
-    - [nhổ răng sữa](service_ask) là như thế nào
-    - [cạo vôi răng](service_ask) là như thế nào
-    - [trám răng](service_ask) là như thế nào
-    - [niềng răng](service_ask) là chúng ta sẽ làm gì
-    - [tẩy trắng răng](service_ask) là chúng ta sẽ làm gì
-    - [nhổ răng](service_ask) là chúng ta sẽ làm gì
-    - [chữa tuỷ răng](service_ask) là chúng ta sẽ làm gì
-    - [lắp răng giả](service_ask) là chúng ta sẽ làm gì
-    - [rạch dẫn lưu áp xe](service_ask) là chúng ta sẽ làm gì
-    - [nhổ răng sữa](service_ask) là chúng ta sẽ làm gì
-    - [cạo vôi răng](service_ask) là chúng ta sẽ làm gì
-    - [trám răng](service_ask) là chúng ta sẽ làm gì
-    - [niềng răng](service_ask) là làm gì?
-    - [tẩy trắng răng](service_ask) là làm gì?
-    - [nhổ răng](service_ask) là làm gì?
-    - [chữa tuỷ răng](service_ask) là làm gì?
-    - [lắp răng giả](service_ask) là làm gì?
-    - [rạch dẫn lưu áp xe](service_ask) là làm gì?
-    - [nhổ răng sữa](service_ask) là làm gì?
-    - [cạo vôi răng](service_ask) là làm gì?
-    - [trám răng](service_ask) là làm gì?
+   - cho tôi hỏi về dịch vụ [niềng răng](service_ask)
+   - cho tôi hỏi về dịch vụ [tẩy trắng răng](service_ask)
+   - cho tôi hỏi về dịch vụ [nhổ răng](service_ask)
+   - cho tôi hỏi về dịch vụ [chữa tuỷ răng](service_ask)
+   - cho tôi hỏi về dịch vụ [lắp răng giả](service_ask)
+   - cho tôi hỏi về dịch vụ [rạch dẫn lưu áp xe](service_ask)
+   - cho tôi hỏi về dịch vụ [nhổ răng sữa](service_ask)
+   - cho tôi hỏi về dịch vụ [cạo vôi răng](service_ask)
+   - cho tôi hỏi về dịch vụ [trám răng](service_ask)
+   - [niềng răng](service_ask) là như thế nào
+   - [tẩy trắng răng](service_ask) là như thế nào
+   - [nhổ răng](service_ask) là như thế nào
+   - [chữa tuỷ răng](service_ask) là như thế nào
+   - [lắp răng giả](service_ask) là như thế nào
+   - [rạch dẫn lưu áp xe](service_ask) là như thế nào
+   - [nhổ răng sữa](service_ask) là như thế nào
+   - [cạo vôi răng](service_ask) là như thế nào
+   - [trám răng](service_ask) là như thế nào
+   - [niềng răng](service_ask) là chúng ta sẽ làm gì
+   - [tẩy trắng răng](service_ask) là chúng ta sẽ làm gì
+   - [nhổ răng](service_ask) là chúng ta sẽ làm gì
+   - [chữa tuỷ răng](service_ask) là chúng ta sẽ làm gì
+   - [lắp răng giả](service_ask) là chúng ta sẽ làm gì
+   - [rạch dẫn lưu áp xe](service_ask) là chúng ta sẽ làm gì
+   - [nhổ răng sữa](service_ask) là chúng ta sẽ làm gì
+   - [cạo vôi răng](service_ask) là chúng ta sẽ làm gì
+   - [trám răng](service_ask) là chúng ta sẽ làm gì
+   - [niềng răng](service_ask) là làm gì?
+   - [tẩy trắng răng](service_ask) là làm gì?
+   - [nhổ răng](service_ask) là làm gì?
+   - [chữa tuỷ răng](service_ask) là làm gì?
+   - [lắp răng giả](service_ask) là làm gì?
+   - [rạch dẫn lưu áp xe](service_ask) là làm gì?
+   - [nhổ răng sữa](service_ask) là làm gì?
+   - [cạo vôi răng](service_ask) là làm gì?
+   - [trám răng](service_ask) là làm gì?
 
 - intent: ask_price
   examples: |
-    - giá [niềng răng](price) sao 
-    - giá [tẩy trắng răng](price) sao
-    - giá [nhổ răng](price) sao 
-    - giá [chữa tuỷ răng](price) sao 
-    - giá [lắp răng giả](price) sao 
-    - giá [rạch dẫn lưu áp xe](price) sao 
-    - giá [nhổ răng sữa](price) sao 
-    - giá [cạo vôi răng](price) sao 
-    - giá [trám răng](price) sao 
-    - giá của [niềng răng](price) sao 
-    - giá của [tẩy trắng răng](price) sao
-    - giá của [nhổ răng](price) sao 
-    - giá của [chữa tuỷ răng](price) sao 
-    - giá của [lắp răng giả](price) sao 
-    - giá của [rạch dẫn lưu áp xe](price) sao 
-    - giá của [nhổ răng sữa](price) sao 
-    - giá của [cạo vôi răng](price) sao 
-    - giá của [trám răng](price) sao
-    - giá của [niềng răng](price) 
-    - giá của [tẩy trắng răng](price)
-    - giá của [nhổ răng](price) 
-    - giá của [chữa tuỷ răng](price) 
-    - giá của [lắp răng giả](price) 
-    - giá của [rạch dẫn lưu áp xe](price) 
-    - giá của [nhổ răng sữa](price) 
-    - giá của [cạo vôi răng](price) 
-    - giá của [trám răng](price)
-    - [niềng răng](price) bao nhiêu 
-    - [tẩy trắng răng](price) bao nhiêu
-    - [nhổ răng](price) bao nhiêu 
-    - [chữa tuỷ răng](price) bao nhiêu 
-    - [lắp răng giả](price) bao nhiêu 
-    - [rạch dẫn lưu áp xe](price) bao nhiêu 
-    - [nhổ răng sữa](price) bao nhiêu 
-    - [cạo vôi răng](price) bao nhiêu 
-    - [trám răng](price) bao nhiêu
-    - giá của [niềng răng](price) bao nhiêu
-    - giá của [tẩy trắng răng](price) bao nhiêu
-    - giá của [nhổ răng](price) bao nhiêu
-    - giá của [chữa tuỷ răng](price) bao nhiêu
-    - giá của [lắp răng giả](price) bao nhiêu
-    - giá của [rạch dẫn lưu áp xe](price) bao nhiêu
-    - giá của [nhổ răng sữa](price) bao nhiêu
-    - giá của [cạo vôi răng](price) bao nhiêu
-    - giá của [trám răng](price) bao nhiêu
+   - giá [niềng răng](price) sao 
+   - giá [tẩy trắng răng](price) sao
+   - giá [nhổ răng](price) sao 
+   - giá [chữa tuỷ răng](price) sao 
+   - giá [lắp răng giả](price) sao 
+   - giá [rạch dẫn lưu áp xe](price) sao 
+   - giá [nhổ răng sữa](price) sao 
+   - giá [cạo vôi răng](price) sao 
+   - giá [trám răng](price) sao 
+   - giá của [niềng răng](price) sao 
+   - giá của [tẩy trắng răng](price) sao
+   - giá của [nhổ răng](price) sao 
+   - giá của [chữa tuỷ răng](price) sao 
+   - giá của [lắp răng giả](price) sao 
+   - giá của [rạch dẫn lưu áp xe](price) sao 
+   - giá của [nhổ răng sữa](price) sao 
+   - giá của [cạo vôi răng](price) sao 
+   - giá của [trám răng](price) sao
+   - giá của [niềng răng](price) 
+   - giá của [tẩy trắng răng](price)
+   - giá của [nhổ răng](price) 
+   - giá của [chữa tuỷ răng](price) 
+   - giá của [lắp răng giả](price) 
+   - giá của [rạch dẫn lưu áp xe](price) 
+   - giá của [nhổ răng sữa](price) 
+   - giá của [cạo vôi răng](price) 
+   - giá của [trám răng](price)
+   - [niềng răng](price) bao nhiêu 
+   - [tẩy trắng răng](price) bao nhiêu
+   - [nhổ răng](price) bao nhiêu 
+   - [chữa tuỷ răng](price) bao nhiêu 
+   - [lắp răng giả](price) bao nhiêu 
+   - [rạch dẫn lưu áp xe](price) bao nhiêu 
+   - [nhổ răng sữa](price) bao nhiêu 
+   - [cạo vôi răng](price) bao nhiêu 
+   - [trám răng](price) bao nhiêu
+   - giá của [niềng răng](price) bao nhiêu
+   - giá của [tẩy trắng răng](price) bao nhiêu
+   - giá của [nhổ răng](price) bao nhiêu
+   - giá của [chữa tuỷ răng](price) bao nhiêu
+   - giá của [lắp răng giả](price) bao nhiêu
+   - giá của [rạch dẫn lưu áp xe](price) bao nhiêu
+   - giá của [nhổ răng sữa](price) bao nhiêu
+   - giá của [cạo vôi răng](price) bao nhiêu
+   - giá của [trám răng](price) bao nhiêu
     
 - intent: ask_timetodo
   examples: |
-    - [niềng răng](timetodo) mất khoảng bao lâu
-    - [tẩy trắng răng](timetodo) mất khoảng bao lâu
-    - [nhổ răng](timetodo) mất khoảng bao lâu
-    - [chữa tuỷ răng](timetodo) mất khoảng bao lâu
-    - [lắp răng giả](timetodo) mất khoảng bao lâu
-    - [rạch dẫn lưu áp xe](timetodo) mất khoảng bao lâu
-    - [nhổ răng sữa](timetodo) mất khoảng bao lâu
-    - [cạo vôi răng](timetodo) mất khoảng bao lâu
-    - [trám răng](timetodo) mất khoảng bao lâu
-    - thời gian [niềng răng](timetodo) là bao lâu
-    - thời gian [tẩy trắng răng](timetodo) là bao lâu
-    - thời gian [nhổ răng](timetodo) là bao lâu
-    - thời gian [chữa tuỷ răng](timetodo) là bao lâu
-    - thời gian [lắp răng giả](timetodo) là bao lâu
-    - thời gian [rạch dẫn lưu áp xe](timetodo) là bao lâu
-    - thời gian [nhổ răng sữa](timetodo) là bao lâu
-    - thời gian [cạo vôi răng](timetodo) là bao lâu
-    - thời gian [trám răng](timetodo) là bao lâu
-    - mất khoảng bao lâu cho việc [niềng răng](timetodo) 
-    - mất khoảng bao lâu cho việc [tẩy trắng răng](timetodo) 
-    - mất khoảng bao lâu cho việc [nhổ răng](timetodo) 
-    - mất khoảng bao lâu cho việc [chữa tuỷ răng](timetodo) 
-    - mất khoảng bao lâu cho việc [lắp răng giả](timetodo) 
-    - mất khoảng bao lâu cho việc [rạch dẫn lưu áp xe](timetodo) 
-    - mất khoảng bao lâu cho việc [nhổ răng sữa](timetodo) 
-    - mất khoảng bao lâu cho việc [cạo vôi răng](timetodo) 
-    - mất khoảng bao lâu cho việc [trám răng](timetodo) 
-    - thời gian cho việc [niềng răng](timetodo) sẽ tốn bao lâu
-    - thời gian cho việc [tẩy trắng răng](timetodo) sẽ tốn bao lâu
-    - thời gian cho việc [nhổ răng](timetodo) sẽ tốn bao lâu
-    - thời gian cho việc [chữa tuỷ răng](timetodo) sẽ tốn bao lâu
-    - thời gian cho việc [lắp răng giả](timetodo) sẽ tốn bao lâu
-    - thời gian cho việc [rạch dẫn lưu áp xe](timetodo) sẽ tốn bao lâu
-    - thời gian cho việc [nhổ răng sữa](timetodo) sẽ tốn bao lâu
-    - thời gian cho việc [cạo vôi răng](timetodo) sẽ tốn bao lâu
-    - thời gian cho việc [trám răng](timetodo) sẽ tốn bao lâu
-    - [niềng răng](timetodo) sẽ tốn bao nhiêu thời gian
-    - [tẩy trắng răng](timetodo) sẽ tốn bao nhiêu thời gian
-    - [nhổ răng](timetodo) sẽ tốn bao nhiêu thời gian
-    - [chữa tuỷ răng](timetodo) sẽ tốn bao nhiêu thời gian
-    - [lắp răng giả](timetodo) sẽ tốn bao nhiêu thời gian
-    - [rạch dẫn lưu áp xe](timetodo) sẽ tốn bao nhiêu thời gian
-    - [nhổ răng sữa](timetodo) sẽ tốn bao nhiêu thời gian
-    - [cạo vôi răng](timetodo) sẽ tốn bao nhiêu thời gian
-    - [trám răng](timetodo) sẽ tốn bao nhiêu thời gian
+   - [niềng răng](timetodo) mất khoảng bao lâu
+   - [tẩy trắng răng](timetodo) mất khoảng bao lâu
+   - [nhổ răng](timetodo) mất khoảng bao lâu
+   - [chữa tuỷ răng](timetodo) mất khoảng bao lâu
+   - [lắp răng giả](timetodo) mất khoảng bao lâu
+   - [rạch dẫn lưu áp xe](timetodo) mất khoảng bao lâu
+   - [nhổ răng sữa](timetodo) mất khoảng bao lâu
+   - [cạo vôi răng](timetodo) mất khoảng bao lâu
+   - [trám răng](timetodo) mất khoảng bao lâu
+   - thời gian [niềng răng](timetodo) là bao lâu
+   - thời gian [tẩy trắng răng](timetodo) là bao lâu
+   - thời gian [nhổ răng](timetodo) là bao lâu
+   - thời gian [chữa tuỷ răng](timetodo) là bao lâu
+   - thời gian [lắp răng giả](timetodo) là bao lâu
+   - thời gian [rạch dẫn lưu áp xe](timetodo) là bao lâu
+   - thời gian [nhổ răng sữa](timetodo) là bao lâu
+   - thời gian [cạo vôi răng](timetodo) là bao lâu
+   - thời gian [trám răng](timetodo) là bao lâu
+   - mất khoảng bao lâu cho việc [niềng răng](timetodo) 
+   - mất khoảng bao lâu cho việc [tẩy trắng răng](timetodo) 
+   - mất khoảng bao lâu cho việc [nhổ răng](timetodo) 
+   - mất khoảng bao lâu cho việc [chữa tuỷ răng](timetodo) 
+   - mất khoảng bao lâu cho việc [lắp răng giả](timetodo) 
+   - mất khoảng bao lâu cho việc [rạch dẫn lưu áp xe](timetodo) 
+   - mất khoảng bao lâu cho việc [nhổ răng sữa](timetodo) 
+   - mất khoảng bao lâu cho việc [cạo vôi răng](timetodo) 
+   - mất khoảng bao lâu cho việc [trám răng](timetodo) 
+   - thời gian cho việc [niềng răng](timetodo) sẽ tốn bao lâu
+   - thời gian cho việc [tẩy trắng răng](timetodo) sẽ tốn bao lâu
+   - thời gian cho việc [nhổ răng](timetodo) sẽ tốn bao lâu
+   - thời gian cho việc [chữa tuỷ răng](timetodo) sẽ tốn bao lâu
+   - thời gian cho việc [lắp răng giả](timetodo) sẽ tốn bao lâu
+   - thời gian cho việc [rạch dẫn lưu áp xe](timetodo) sẽ tốn bao lâu
+   - thời gian cho việc [nhổ răng sữa](timetodo) sẽ tốn bao lâu
+   - thời gian cho việc [cạo vôi răng](timetodo) sẽ tốn bao lâu
+   - thời gian cho việc [trám răng](timetodo) sẽ tốn bao lâu
+   - [niềng răng](timetodo) sẽ tốn bao nhiêu thời gian
+   - [tẩy trắng răng](timetodo) sẽ tốn bao nhiêu thời gian
+   - [nhổ răng](timetodo) sẽ tốn bao nhiêu thời gian
+   - [chữa tuỷ răng](timetodo) sẽ tốn bao nhiêu thời gian
+   - [lắp răng giả](timetodo) sẽ tốn bao nhiêu thời gian
+   - [rạch dẫn lưu áp xe](timetodo) sẽ tốn bao nhiêu thời gian
+   - [nhổ răng sữa](timetodo) sẽ tốn bao nhiêu thời gian
+   - [cạo vôi răng](timetodo) sẽ tốn bao nhiêu thời gian
+   - [trám răng](timetodo) sẽ tốn bao nhiêu thời gian
 - intent: thank
   examples: |
-    - thank you
-    - thank u
-    - cảm ơn
-    - xin cảm ơn
-    - cám ơn
-    - Cám ơn ad
-    - thanks
+   - thank you
+   - thank u
+   - cảm ơn
+   - xin cảm ơn
+   - cám ơn
+   - Cám ơn ad
+   - thanks
 
 
 
